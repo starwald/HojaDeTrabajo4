@@ -36,4 +36,9 @@ public class SinglyLinkedList<T> implements List<T> {
     public int size() {
         return nodos.size();
     }
+
+    @Override
+    public void clear() {
+        nodos.clear();
+    }
 }

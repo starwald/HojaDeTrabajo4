@@ -38,4 +38,11 @@ public class StackList<T> implements Stack<T> {
     public int size() {
         return list.size();
     }
+
+    @Override
+    public void clear() {
+        while (!isEmpty()) {
+            pop();
+        }
+    }
 }

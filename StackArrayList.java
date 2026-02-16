@@ -34,4 +34,9 @@ public class StackArrayList<T> implements Stack<T> {
     public int size() {
         return data.size();
     }
+
+    @Override
+    public void clear() {
+        data.clear();
+    }
 }
