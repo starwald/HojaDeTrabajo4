@@ -1,6 +1,6 @@
 package HojaDeTrabajo4;
 
-public class Calculator implements PostfixCalculator {
+public class Calculator implements ICalculator {
 
     private Stack<Integer> stack;
 
