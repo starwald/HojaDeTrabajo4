@@ -1,5 +1,3 @@
-package HojaDeTrabajo4;
-
 public class NodoDoble<T> {
     
     private T data;

@@ -1,5 +1,3 @@
-package HojaDeTrabajo4;
-
 public interface List<T> {
     
     void addLast(T element);

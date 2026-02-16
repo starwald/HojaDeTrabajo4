@@ -1,5 +1,3 @@
-package HojaDeTrabajo4;
-
 public class InfixToPostfix {
 
     public String convert(String expression, Stack<String> stack) {

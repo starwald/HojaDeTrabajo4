@@ -1,5 +1,3 @@
-package HojaDeTrabajo4;
-
 public class Calculator implements ICalculator {
 
     private Stack<Integer> stack;

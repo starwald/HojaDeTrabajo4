@@ -1,5 +1,3 @@
-package HojaDeTrabajo4;
-
 public interface Stack<T> {
 
     T pop();

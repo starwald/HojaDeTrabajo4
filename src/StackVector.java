@@ -1,5 +1,3 @@
-package HojaDeTrabajo4;
-
 import java.util.Vector;
 
 public class StackVector<T> implements Stack<T> {

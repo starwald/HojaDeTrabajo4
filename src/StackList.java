@@ -1,5 +1,3 @@
-package HojaDeTrabajo4;
-
 public class StackList<T> implements Stack<T> {
     
     private List<T> list;

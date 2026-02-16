@@ -1,18 +1,16 @@
-package HojaDeTrabajo4;
-
 import java.util.ArrayList;
 
-public class SinglyLinkedList<T> implements List<T> {
+public class DoublyLinkedList<T> implements List<T> {
     
-    private ArrayList<NodoSimple<T>> nodos;
+    private ArrayList<NodoDoble<T>> nodos;
 
-    public SinglyLinkedList() {
+    public DoublyLinkedList() {
         nodos = new ArrayList<>();
     }
 
     @Override
     public void addLast(T element) {
-        nodos.add(new NodoSimple<> (element));
+        nodos.add(new NodoDoble<> (element));
     }
 
     @Override

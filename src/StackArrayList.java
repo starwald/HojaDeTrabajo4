@@ -1,5 +1,3 @@
-package HojaDeTrabajo4;
-
 import java.util.ArrayList;
 
 public class StackArrayList<T> implements Stack<T> {
